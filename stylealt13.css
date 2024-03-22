@@ -1,0 +1,89 @@
+*{
+	margin: 0;
+	padding: 10px;
+	border: 0;
+}
+
+body {
+	background: url(https://w0.peakpx.com/wallpaper/200/532/HD-wallpaper-black-plain.jpg);
+	background-size: cover;
+}
+
+.kreu {
+	font-family: 'Flexi IBM VGA True', sans-serif;
+  color: white;
+  font-size: 20px;
+}
+
+.dyt {
+  font-family: 'Flexi IBM VGA True', sans-serif;
+  color: #43DC00 ;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+}
+.pulsing {
+	font-weight: bold;
+	color: white;
+	font-size: 25px;
+  animation: blinker 2.5s linear infinite;
+}
+@keyframes blinker {
+50% {
+opacity: 0;
+}}
+
+.mbyll {
+	position: relative;
+	float: right;
+	text-align: right;
+	color: white;
+	font-family: 'Flexi IBM VGA True', sans-serif;
+	font-size: 20px;
+}
+
+button {
+	position: relative;
+	float: left;
+	color: white;
+	font-family: 'Flexi IBM VGA True', sans-serif;
+	font-size: 20px;
+	background-color: black;
+	border: 1px solid white;
+	top: 50px;
+	padding-left: 10px;
+	cursor: pointer;
+}
+
+.buta {
+	position: relative;
+	color: white;
+	font-family: 'Flexi IBM VGA True', sans-serif;
+	font-size: 20px;
+	background-color: black;
+	border: 1px solid white;
+	top: 106px;
+	padding-left: 10px;
+	cursor: pointer;
+	right: 232px;
+	width: 233px;
+}
+
+button:hover{
+	background-color: white;
+	color: black;
+}
+
+img {
+	position: relative;
+	float: left;
+	border: 1px solid white;
+	margin-right: 10px;
+	top: 50px;
+	cursor: pointer;
+}
+
+img:hover{
+	background-color: white;
+	color: black;
+}
+

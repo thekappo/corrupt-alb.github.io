@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+}
+
+body{
+  background: url(https://i.cbc.ca/1.5134171.1557773554!/fileImage/httpImage/albania-protest.jpg);
+  background-size: cover;
+  z-index: -1;
+}
+
+hr.line1 {
+  padding: 0;
+  border: 5px solid red;
+  position: relative;
+}
+hr.line2 {
+  padding: 0;
+  border: 8px solid #4C4C4C;
+  position: relative;
+}
+hr.line3 {
+  padding: 0;
+  border: 8px solid black;
+  position: relative;
+  top: 731px;
+}
+
+.shpjegim {
+  position: absolute;
+  font-size: 10px;
+  color: white;
+  font-family: arial;
+  top: 750px;
+}
+
+iframe{
+  height: 500px;
+  width: 1000px;
+  position: absolute;
+  left: 300px;
+  bottom: 200px;
+  border: 5px solid red;
+  border-radius: 10px;
+  box-shadow: 0 90px 150px 0 black;
+}
+
+.continue {
+  background-color: black;
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  bottom: 100px;
+  left: 730px;
+  font-family: 'Oswald';
+  padding: 10px 25px 10px 25px;
+  border-radius: 15px;
+  border: 1px solid white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.continue:hover {
+  background-color: white;
+  color: red;
+}
+
+.content {
+  background-color: black;
+  z-index: 1;
+}

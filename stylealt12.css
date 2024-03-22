@@ -1,0 +1,106 @@
+*{
+	margin: 0;
+}
+
+img {
+	height: 40px;
+	width: auto;
+}
+
+body {
+	background: url(https://opinion.al/wp-content/uploads/2018/12/BLOG-1024x600-corruption-men-handing-money-Kritchanut-iStock-470047778.jpg);
+	background-size: cover;
+	background-filter: brightness(0.5);
+}
+
+.footer {
+	background: url(navbari.jpg);
+	background-size: cover;
+	overflow: hidden;
+	position: absolute;
+	top: 711px;
+	width: 1600px;
+	position: fixed;
+}
+
+.footer ul {
+	list-style: none;
+	margin-bottom: 0;
+	justify-content: space-between;
+	padding: 10px 10px 8px 10px;
+}
+
+li{
+	display: inline;
+}
+
+p {
+	float: right;
+	color: grey;
+	position: relative;
+	top: 12px;
+	font-family: arial;
+	font-size: 13px;
+}
+
+hr.line1 {
+  padding: 0;
+  border: 5px solid red;
+  position: absolute;
+  bottom: 62px;
+  z-index: 1;
+  width: 1590px;
+}
+
+hr.line2 {
+  padding: 0;
+  border: 5px solid black;
+  position: absolute;
+  top: 0px;
+  z-index: 1;
+  width: 1590px;
+}
+
+hr.line3 {
+  padding: 0;
+  border: 5px solid #4C4C4C;
+  position: absolute;
+  z-index: 1;
+  bottom: 71px;
+  width: 1590px;
+}
+
+.vazhdo {
+	padding: 7px 20px 7px 20px;
+	margin: 30px;
+	position: absolute;
+	top: 550px;
+	left: 45%;
+	font-size: 20px;
+	font-family: 'Oswald';
+	background-color: black;
+	color: white;
+	letter-spacing: 1px;
+	border: 1px solid white;
+	border-radius: 5px;
+	box-shadow: 10px 150px 250px 50px black;
+	cursor: pointer;
+	font-weight: bold;
+	z-index: 1;
+}
+
+.vazhdo:hover{
+	background-color: white;
+	color: red;
+}
+
+iframe{
+  height: 500px;
+  width: 900px;
+  position: absolute;
+  left: 350px;
+  top: 50px;
+  border: 5px solid red;
+  border-radius: 10px;
+  box-shadow: 0 90px 150px 0 black;
+}

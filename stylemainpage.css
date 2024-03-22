@@ -1,0 +1,274 @@
+*{
+  margin: 0px;
+}
+
+body {
+  background: url(backgroundimain.jpg);
+  background-size: cover;
+  overflow: hidden;
+}
+
+.navbar ul {
+  list-style-type: none;
+  overflow: hidden;
+  padding: 15px 5px 25px 5px;
+  background: url(navbari.jpg);
+  background-size: cover;
+}
+
+.majtas {
+  float: left;
+  text-align: left;
+}
+
+.djathtas {
+  float: right;
+  text-align: right;
+}
+
+li {
+  display: inline-block;
+}
+
+li a{
+  color: white;
+  text-decoration: none;
+  font-family: 'Oswald';
+  letter-spacing: 1.5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 15px;
+}
+
+.register {
+  color: white;
+  background-color: #950005;
+  font-weight: bold;
+  padding: 5px 2px 5px 2px;
+  border: 1px solid black;
+  margin-right: 15px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.img1 {
+  height: 60px;
+  width: auto;
+  position: relative;
+  left: 300px;
+
+}
+
+.img2 {
+  height: 60px;
+  width: auto;
+  position: relative;
+  left: 300px;
+}
+
+li a:hover {
+  color: yellow;
+  transition: all 0.5s;
+}
+
+.register:hover {
+  background-color: orangered;
+  transition: all 1s;
+}
+
+hr.line1 {
+  padding: 0;
+  border: 5px solid red;
+  position: relative;
+  bottom: 18px;
+}
+hr.line2 {
+  padding: 0;
+  border: 8px solid #4C4C4C;
+  position: relative;
+  bottom: 18px;
+}
+
+.sfondi{
+  background: url(popupi.avif);
+  background-size: cover;
+  border-radius: 15px;
+  padding: 20px 20px 20px 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  box-shadow: 10px 90px 150px 10px black;
+}
+
+.kryesore {
+  font-weight: bold;
+  font-size: 150px;
+  text-align: center;
+  animation: blinker 0.7s linear infinite;
+  font-family: sans-serif;
+  -webkit-text-stroke: 7px black;
+  color: yellow;
+  text-shadow:
+    0 10px 7px black,
+    0 10px 10px brown,
+    0 5px 0 black,
+    0 2px 0 brown,
+    0 1px 0 brown,
+    0 1px 0 red,
+    0 1px 0 red,
+    0 1px 0 red;
+}
+@keyframes blinker {
+50% {
+opacity: 0;
+}}
+
+.dytesore {
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+  animation: blinker 1.5s linear infinite;
+  font-family: sans-serif;
+  -webkit-text-stroke: 3px black;
+  color: yellowgreen;
+  text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+}
+@keyframes blinker {
+50% {
+opacity: 0;
+}}
+
+.terciale {
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  -webkit-text-stroke: 2px black;
+  color: wheat;
+  animation: blinker 2.5s linear infinite;
+  text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+}
+@keyframes blinker {
+50% {
+opacity: 0;
+}}
+
+.pyetja {
+  font-weight: bold;
+  font-size: 80px;
+  text-align: center;
+  -webkit-text-stroke: 4px black;
+  color: white;
+    text-shadow:
+    0 10px 7px black,
+    0 10px 10px brown,
+    0 5px 0 black,
+    0 2px 0 brown,
+    0 1px 0 brown,
+    0 1px 0 red,
+    0 1px 0 red,
+    0 1px 0 red;
+}
+
+.alternativat{
+  overflow: hidden;
+  align-content: center;
+  position: relative;
+  left: 555px;
+  margin-top: 20px;
+  padding-bottom: 15px;
+}
+
+.yes {
+  color: white;
+  background-color: #135000;
+  padding: 5px 30px 5px 30px;
+  border: 1px solid white;
+  margin-right: 15px;
+  border-radius: 5px;
+  font-size: 40px;
+  text-decoration: none;
+  cursor: pointer;
+  margin-right: 60px;
+  -webkit-text-stroke: 2px black;
+  box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+  font-family: 'Pricedown Bl', sans-serif;
+  letter-spacing: 2px;
+}
+
+.yes:hover{
+  background-color: #40C800;
+  color: #F7FF00;
+  transition: all 1s;
+}
+
+.no {
+  color: white;
+  background-color: darkred;
+  padding: 5px 30px 5px 30px;
+  border: 1px solid white;
+  margin-right: 15px;
+  border-radius: 5px;
+  font-size: 40px;
+  text-decoration: none;
+  cursor: pointer;
+  margin-left: 60px;
+  -webkit-text-stroke: 2px black;
+  box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+  font-family: 'Pricedown Bl', sans-serif;
+  letter-spacing: 2px;
+}
+
+.no:hover{
+  background-color: #FF1B00;
+  color: #F7FF00;
+  transition: all 1s;
+}
+
+.leave{
+  position: absolute;
+  height: 45px;
+  width: 50px;
+  bottom: 580px;
+  left: 1475px;
+  box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+  background-color: #CE0000;
+  color: white;
+  padding: 1px 1px 1px 1px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Audiowide", sans-serif;
+  border-radius: 10px;
+  border: 1px solid white;
+  cursor: pointer;
+  text-shadow: 5px 5px 5px 5px;
+}
+
+.leave:hover{
+  background-color: #FF220C;
+  transition: all 1s;
+}
+
+hr.line3{
+  position: absolute;
+  z-index: 1;
+  top: 760px;
+  border: 7px solid black;
+  width: 100%;
+}
+
+hr.line4 {
+  padding: 0;
+  border: 5px solid #323232;
+  position: absolute;
+  top: 750px;
+  width: 100%;
+}

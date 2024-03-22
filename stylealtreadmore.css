@@ -1,0 +1,209 @@
+*{
+  margin: 0px;
+}
+
+body {
+  background: url(backgroundirm.jpg);
+  background-size: cover;
+  z-index: -2;
+  overflow-x: hidden;
+}
+
+.navbar ul {
+  list-style-type: none;
+  overflow: hidden;
+  padding: 15px 5px 25px 5px;
+  background: url(navbari.jpg);
+  background-size: cover;
+}
+
+.majtas {
+  float: left;
+  text-align: left;
+}
+
+.djathtas {
+  float: right;
+  text-align: right;
+}
+
+li {
+  display: inline-block;
+}
+
+li a{
+  color: white;
+  text-decoration: none;
+  font-family: 'Oswald';
+  letter-spacing: 1.5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 15px;
+}
+
+.register {
+  color: white;
+  background-color: #950005;
+  font-weight: bold;
+  padding: 5px 2px 5px 2px;
+  border: 1px solid black;
+  margin-right: 15px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.img1 {
+  height: 60px;
+  width: auto;
+  position: relative;
+  left: 300px;
+}
+
+.img2 {
+  height: 60px;
+  width: auto;
+  position: relative;
+  left: 300px;
+}
+
+li a:hover {
+  color: yellow;
+  transition: all 0.5s;
+}
+
+.register:hover {
+  background-color: orangered;
+  transition: all 1s;
+}
+
+hr.line1 {
+  padding: 0;
+  border: 5px solid red;
+  position: relative;
+  bottom: 18px;
+  z-index: 6;
+}
+hr.line2 {
+  padding: 0;
+  border: 8px solid #4C4C4C;
+  position: relative;
+  bottom: 18px;
+  box-shadow: 0 0 25px 0 black;
+  z-index: 5;
+}
+
+hr.line3{
+  position: absolute;
+  z-index: 3;
+  top: 760px;
+  border: 7px solid black;
+  width: 100%;
+  position: fixed;
+}
+
+hr.line4 {
+  padding: 0;
+  border: 5px solid #323232;
+  position: absolute;
+  top: 750px;
+  width: 100%;
+  position: fixed;
+  z-index: 3;
+  box-shadow: 0 0 25px 0 black;
+}
+
+
+.titulliartikull {
+  color: black;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 2px;
+  font-size: 15px;
+}
+
+.titulliartikull:hover {
+  color: darkred;
+}
+
+.sqarim {
+  color: black;
+  font-family: helvetica;
+  font-size: 15px;
+}
+
+.news li {
+  padding: 20px;
+  text-align: center;
+  margin: 2px;
+  background-color: #F0F0F0;
+  height: 300px;
+  width: 300px;
+  margin-right: 2px;
+  overflow: hidden;
+  align-content: center;
+}
+
+.imazhi {
+  width: auto;
+  height: 100px;
+  align-content: center;
+  position: relative;
+  right: 13px;
+}
+
+.artikulli a {
+  position: relative;
+}
+
+.content2 {
+  position: relative;
+  right: 2%;
+  margin-bottom: 50px;
+  width: 100%;
+  z-index: 1;
+  background: url(https://t4.ftcdn.net/jpg/03/78/40/11/360_F_378401105_9LAka9cRxk5Ey2wwanxrLTFCN1U51DL0.jpg);
+  background-size: cover;
+  padding-bottom: 20px;
+}
+
+.news li:hover{
+  background-color: darkgrey;
+  color: white;
+}
+
+.content1 {
+  position: absolute;
+  z-index: 2;
+  height: 1220px;
+  width: 170px;
+  margin: 0;
+  top: 113px;
+  background: url(Reklama.png);
+  left: 89.3%;
+  box-shadow: 10px 10px 10px 10px black;
+}
+
+.lexo {
+  position: relative;
+  left: 100px;
+  font-family: 'oswald';
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 10px;
+  padding-top: 20px;
+}
+
+.content2 hr.line5 {
+  position: absolute;
+  align-content: center;
+  width: 60%;
+  left: 42px;
+  top: 85px;
+  border: 1px solid black;
+  z-index: 2;
+}
+
+hr.line6 {
+  border: 0.2px solid #464646;
+}

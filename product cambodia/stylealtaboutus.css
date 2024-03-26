@@ -1,0 +1,242 @@
+*{
+  margin: 0px;
+}
+
+body {
+  background: url(https://images.pond5.com/computer-coding-background-footage-090890180_prevstill.jpeg);
+  background-size: cover;
+  z-index: -2;
+  overflow-x: hidden;
+}
+
+.navbar ul {
+  list-style-type: none;
+  overflow: hidden;
+  padding: 15px 5px 25px 5px;
+  background: url(navbari.jpg);
+  background-size: cover;
+}
+
+.majtas {
+  float: left;
+  text-align: left;
+}
+
+.djathtas {
+  float: right;
+  text-align: right;
+}
+
+li {
+  display: inline-block;
+}
+
+li a{
+  color: white;
+  text-decoration: none;
+  font-family: 'Oswald';
+  letter-spacing: 1.5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 15px;
+}
+
+.register {
+  color: white;
+  background-color: #950005;
+  font-weight: bold;
+  padding: 5px 2px 5px 2px;
+  border: 1px solid black;
+  margin-right: 15px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.img1 {
+  height: 60px;
+  width: auto;
+  position: relative;
+  left: 300px;
+}
+
+.img2 {
+  height: 60px;
+  width: auto;
+  position: relative;
+  left: 300px;
+}
+
+li a:hover {
+  color: yellow;
+  transition: all 0.5s;
+}
+
+.register:hover {
+  background-color: orangered;
+  transition: all 1s;
+}
+
+hr.line1 {
+  padding: 0;
+  border: 5px solid red;
+  position: relative;
+  bottom: 18px;
+  z-index: 6;
+}
+hr.line2 {
+  padding: 0;
+  border: 8px solid #4C4C4C;
+  position: relative;
+  bottom: 18px;
+  box-shadow: 0 0 25px 0 black;
+  z-index: 5;
+}
+
+hr.line3{
+  position: absolute;
+  z-index: 3;
+  top: 760px;
+  border: 7px solid black;
+  width: 100%;
+  position: fixed;
+}
+
+hr.line4 {
+  padding: 0;
+  border: 5px solid #323232;
+  position: absolute;
+  top: 750px;
+  width: 100%;
+  position: fixed;
+  z-index: 3;
+  box-shadow: 0 0 25px 0 black;
+}
+
+.content {
+  background: url(sfondiaboutus.jpg);
+  background-size: cover;
+  margin: 15px 30px 50px 30px;
+  border-radius: 10px;
+  border: 1px solid white;
+  box-shadow: 10px 90px 150px 10px #AACCC4;
+  height: 570px;
+}
+
+.imazh1 {
+  height: 70px;
+  width: auto;
+  margin: 30px;
+  position: absolute;
+}
+
+.harta {
+  height: 500px;
+  width: auto;
+  left: 1150px;
+  top: 180px;
+  position: absolute;
+  border-radius: 15px;
+  border: 3px solid red;
+}
+
+.stema{
+  height: 80px;
+  width: auto;
+  left: 77px;
+  top: 265px;
+  position: absolute;
+}
+
+h1 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  padding: 30px;
+  left: 120px;
+  bottom: 520px;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 3px;
+    text-shadow:
+    0 0 7px #AACCC4,
+    0 0 10px #fff,
+    0 0 21px #AACCC4,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+}
+
+h2 {
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  width: 600px;
+  margin: 20px;
+  bottom: 400px;
+  left: 130px;
+  font-family: "Play", sans-serif;
+  text-shadow:
+    0 0 7px black,
+    0 0 10px #AACCC4,
+    0 0 10px #AACCC4;
+}
+
+.pjesa1 {
+  color: white;
+  width: 200px;
+  height: 400px;
+  position: absolute;
+  left: 110px;
+  top: 380px;
+  text-shadow:
+    0 0 7px black,
+    0 0 10px #AACCC4,
+    0 0 10px #AACCC4;
+
+}
+
+p{
+  padding-top: 15px;
+}
+
+.pjesa2 {
+  color: white;
+  width: 200px;
+  height: 420px;
+  position: absolute;
+  left: 370px;
+  top: 380px;
+  text-shadow:
+    0 0 7px black,
+    0 0 10px #AACCC4,
+    0 0 10px #AACCC4;
+}
+
+.pjesa3 {
+  color: white;
+  width: 200px;
+  height: 400px;
+  position: absolute;
+  left: 620px;
+  top: 380px;
+  text-shadow:
+    0 0 7px black,
+    0 0 10px #AACCC4,
+    0 0 10px #AACCC4;
+
+}
+
+.pjesa4 {
+  color: white;
+  width: 200px;
+  height: 400px;
+  position: absolute;
+  left: 870px;
+  top: 380px;
+  text-shadow:
+    0 0 7px black,
+    0 0 10px #AACCC4,
+    0 0 10px #AACCC4;
+
+}

@@ -1,0 +1,269 @@
+*{
+	margin: 0;
+}
+
+img {
+	height: 40px;
+	width: auto;
+}
+
+body {
+	background: url(https://eia476h758b.exactdn.com/wp-content/uploads/2023/04/Lezhe-scaled.jpeg?strip=all&lossy=1&ssl=1);
+	background-size: cover;
+}
+
+.footer {
+	background: url(navbari.jpg);
+	background-size: cover;
+	overflow: hidden;
+	position: absolute;
+	top: 711px;
+	width: 1600px;
+	position: fixed;
+}
+
+.footer ul {
+	list-style: none;
+	margin-bottom: 0;
+	justify-content: space-between;
+	padding: 10px 10px 8px 10px;
+}
+
+li{
+	display: inline;
+}
+
+p {
+	float: right;
+	color: grey;
+	position: relative;
+	top: 12px;
+	font-family: arial;
+	font-size: 13px;
+}
+
+hr.line1 {
+  padding: 0;
+  border: 5px solid red;
+  position: absolute;
+  bottom: 62px;
+  z-index: 1;
+  width: 1590px;
+}
+
+hr.line2 {
+  padding: 0;
+  border: 5px solid black;
+  position: absolute;
+  top: 0px;
+  z-index: 1;
+  width: 1590px;
+}
+
+hr.line3 {
+  padding: 0;
+  border: 5px solid #4C4C4C;
+  position: absolute;
+  z-index: 1;
+  bottom: 71px;
+  width: 1590px;
+}
+
+.content {
+	position: absolute;
+	background: url(https://lewiscreative.ca/wp-content/uploads/2021/05/Chalkboard-Background-Green-Preview.jpg);
+	background-size: cover;
+	margin: 50px 50px 50px 50px;
+	width: 1400px;
+	height: 560px;
+	left: 50px;
+	border: 2px solid wheat;
+	border-radius: 20px;
+	box-shadow: 10px 90px 150px 10px black;
+}
+
+h1 {
+	font-family: 'DK Crayon Crumble', sans-serif;
+	 color: white;
+	 position: absolute;
+	 margin: 30px 50px 30px 50px;
+	 font-size: 30px;
+	 text-align: left;
+	 letter-spacing: 1.5px;
+	 left: 20px;
+	 top: 20px;
+	 font-weight: bold;
+	 	text-shadow:
+    0 10px 7px black,
+    0 10px 10px black,
+    0 5px 0 black,
+    0 2px 0 black,
+    0 1px 0 black,
+    0 1px 0 black,
+    0 1px 0 black,
+    0 1px 0 black; 
+}
+
+h2 {
+	 font-family: 'DK Crayon Crumble', sans-serif;
+	 text-align: right;
+	 color: white;
+	 position: absolute;
+	 margin: 50px 30px 50px 50px;
+	 font-size: 42px;
+	 letter-spacing: 1.5px;
+	 left: 28%;
+	 font-weight: bold; 
+	 top: 180px; 
+	text-shadow:
+    0 10px 7px black,
+    0 10px 10px black,
+    0 5px 0 black,
+    0 2px 0 black,
+    0 1px 0 black,
+    0 1px 0 black,
+    0 1px 0 black,
+    0 1px 0 black;                             
+}
+
+h3 {
+	 font-family: 'DK Crayon Crumble', sans-serif;
+	 text-align: right;
+	 color: white;
+	 position: absolute;
+	 margin: 50px 30px 50px 50px;
+	 font-size: 22px;
+	 letter-spacing: 1.5px;
+	 left: 51%;
+	 font-weight: bold; 
+	 top: 330px; 
+	text-shadow:
+    0 10px 7px black,
+    0 10px 10px black,
+    0 5px 0 black,
+    0 2px 0 black,
+    0 1px 0 black,
+    0 1px 0 black,
+    0 1px 0 black,
+    0 1px 0 black; 	
+}
+
+.vazhdo {
+	padding: 7px 20px 7px 20px;
+	margin: 30px;
+	position: relative;
+	top: 430px;
+	left: 20px;
+	font-size: 25px;
+	font-family: 'Oswald';
+	background-color: #00011B;
+	color: white;
+	letter-spacing: 1px;
+	border: 1px solid white;
+	border-radius: 5px;
+	box-shadow: 10px 50px 90px 10px black;
+	cursor: pointer;
+}
+
+.vazhdo:hover{
+	background-color: white;
+	color: darkgreen;
+}
+
+.foto {
+	width: 240px;
+	height: auto;
+	border: 5px solid white;
+	border-radius: 10px;
+	position: absolute;
+	right: 50px;
+	top: 140px;
+	box-shadow: 10px 90px 150px 10px black;
+}
+
+@media (max-width: 767px) {
+
+	body {
+		background-size: cover;
+		overflow: hidden;
+	}
+	
+	.footer {
+		position: absolute;
+		bottom: 0;
+		width: auto;
+	}
+	
+	hr.line3 {
+		position: unset;
+	}
+	
+	hr.line1 {
+		position: absolute;
+		width: 100%;
+		bottom: 130px;
+	}
+	
+	p {
+		text-align: center;
+		position: relative;
+		padding: 0%;
+		margin: 0%;
+		right: 30px;
+	}
+	
+	img {
+		position: relative;
+		align-items: center;
+		left: 65px;
+	}
+	
+	.content {
+		margin: 20px;
+		padding: 0;
+		left: auto;
+		width: 350px;
+		height: 650px;
+	}
+	
+	.foto {
+		height: 150px;
+		width: auto;
+		top: 310px;
+		left: 10px;
+		position: relative;
+	}
+	
+	h1 {
+		position: absolute;
+		font-size: 20px;
+		margin: 0;
+		padding: 0;
+		top: 20px;
+		text-align: center;
+		left: 30px;
+	}
+	
+	h2 {
+		position: absolute;
+		font-size: 30px;
+		margin: 0;
+		padding: 0;
+		top: 170px;
+		left: 10px;
+		padding-right: 10px;
+	}
+
+	h3 {
+		top: 320px;
+		text-align: center;
+		left: 120px;
+	}
+
+	.vazhdo {
+		position: absolute;
+		top: 490px;
+		left: 85px;
+	}
+	
+	} 

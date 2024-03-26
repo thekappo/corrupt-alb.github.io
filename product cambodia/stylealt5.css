@@ -1,0 +1,263 @@
+*{
+	margin: 0;
+}
+
+img {
+	height: 40px;
+	width: auto;
+}
+
+body {
+	background: url(https://tourisminalbania.com/wp-content/uploads/2020/04/Kruja-castle-Albania.jpg);
+	background-size: cover;
+}
+
+.footer {
+	background: url(navbari.jpg);
+	background-size: cover;
+	overflow: hidden;
+	position: absolute;
+	top: 711px;
+	width: 1600px;
+	position: fixed;
+}
+
+.footer ul {
+	list-style: none;
+	margin-bottom: 0;
+	justify-content: space-between;
+	padding: 10px 10px 8px 10px;
+}
+
+li{
+	display: inline;
+}
+
+p {
+	float: right;
+	color: grey;
+	position: relative;
+	top: 12px;
+	font-family: arial;
+	font-size: 13px;
+}
+
+hr.line1 {
+  padding: 0;
+  border: 5px solid red;
+  position: absolute;
+  bottom: 62px;
+  z-index: 1;
+  width: 1590px;
+}
+
+hr.line2 {
+  padding: 0;
+  border: 5px solid black;
+  position: absolute;
+  top: 0px;
+  z-index: 1;
+  width: 1590px;
+}
+
+hr.line3 {
+  padding: 0;
+  border: 5px solid #4C4C4C;
+  position: absolute;
+  z-index: 1;
+  bottom: 71px;
+  width: 1590px;
+}
+
+.content {
+	position: absolute;
+	background: url(https://live.staticflickr.com/2626/4030152899_e6d66478df_b.jpg);
+	background-size: cover;
+	margin: 50px 50px 50px 50px;
+	width: 1400px;
+	height: 560px;
+	left: 50px;
+	border: 2px solid wheat;
+	border-radius: 20px;
+	box-shadow: 10px 90px 150px 10px black;
+}
+
+h1 {
+	font-family: 'DK Crayon Crumble', sans-serif;
+	 color: white;
+	 position: relative;
+	 margin: 50px 50px 50px 50px;
+	 font-size: 25px;
+	 letter-spacing: 1.5px;
+	 left: 50px;
+	 font-weight: bold;
+	 	text-shadow:
+    0 10px 7px black,
+    0 10px 10px black,
+    0 5px 0 black,
+    0 2px 0 black,
+    0 1px 0 black,
+    0 1px 0 black,
+    0 1px 0 black,
+    0 1px 0 black; 
+}
+
+h2 {
+	 font-family: 'DK Crayon Crumble', sans-serif;
+	 color: white;
+	 position: absolute;
+	 margin: 50px 50px 50px 50px;
+	 font-size: 85px;
+	 letter-spacing: 1.5px;
+	 left: 310px;
+	 font-weight: bold; 
+	 top: 65px; 
+	text-shadow:
+    0 10px 7px black,
+    0 10px 10px black,
+    0 5px 0 black,
+    0 2px 0 black,
+    0 1px 0 black,
+    0 1px 0 black,
+    0 1px 0 black,
+    0 1px 0 black;                             
+}
+
+.radiobtn {
+	align-content: center;
+	color: white;
+	left: 475px;
+	top: 300px;
+	padding-bottom: 20px;
+	position: absolute;
+	font-size: 25px;
+	font-family: 'KG Love You Through It', sans-serif;
+	letter-spacing: 1.5px;
+	-webkit-text-stroke-width: 0.2px;
+  -webkit-text-stroke-color: black;
+    text-shadow:
+    0 10px 7px black,
+    0 10px 10px black,
+    0 5px 0 black,
+    0 2px 0 black,
+    0 1px 0 black,
+    0 1px 0 black,
+    0 1px 0 green,
+    0 1px 0 green;
+}  
+
+input[type="radio"] {
+	appearance: none;
+  background-color: white;
+  margin: 0;
+  font: inherit;
+  color: white;
+  width: 1em;
+  height: 1em;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+input[type="radio"]::before {
+  content: "";
+  width: 1em;
+  height: 1em;
+  transform: scale(0);
+  transition: all 120ms;
+  box-shadow: inset 1em 1em var(--form-control-color);
+}
+
+input[type="radio"]:hover {
+	background-color: grey;
+}
+
+input[type="radio"]:checked::before {
+  transform: scale(0.5);
+}
+
+input[type="radio"]:after {
+	border-radius: 50%;
+	background-color: #2196F3;
+	color: transparent;
+}
+
+@media (max-width: 767px) {
+
+	body {
+		background-size: cover;
+		overflow: hidden;
+	}
+	
+	.footer {
+		position: absolute;
+		bottom: 0;
+		width: auto;
+	}
+	
+	hr.line3 {
+		position: unset;
+	}
+	
+	hr.line1 {
+		position: absolute;
+		width: 100%;
+		bottom: 130px;
+	}
+	
+	p {
+		text-align: center;
+		position: relative;
+		padding: 0%;
+		margin: 0%;
+		right: 30px;
+	}
+	
+	img {
+		position: relative;
+		align-items: center;
+		left: 65px;
+	}
+	
+	.content {
+		margin: 20px;
+		padding: 0;
+		left: auto;
+		width: 350px;
+		height: 650px;
+	}
+	
+	.fotoja {
+		height: 300px;
+		width: auto;
+		top: 110px;
+		left: 10px;
+		position: relative;
+	}
+	
+	h1 {
+		position: absolute;
+		font-size: 15px;
+		margin: 0;
+		padding: 0;
+		top: 20px;
+		text-align: center;
+		left: 30px;
+	}
+	
+	h2 {
+		position: absolute;
+		font-size: 30px;
+		margin: 0;
+		padding: 0;
+		top: 170px;
+		left: 50px;
+	}
+	
+	.radiobtn {
+		font-size: 17px;
+		position: absolute;
+		top: 300px;
+		left: 25px;
+	}
+	
+	}   

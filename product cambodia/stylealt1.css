@@ -1,0 +1,259 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	background: url(https://www.shutterstock.com/shutterstock/videos/1108605035/thumb/1.jpg?ip=x480);
+	background-size: cover;
+}
+
+img {
+	height: 40px;
+	width: auto;
+}
+
+.footer {
+	background: url(navbari.jpg);
+	background-size: cover;
+	overflow: hidden;
+	position: absolute;
+	top: 711px;
+	width: 1600px;
+	position: fixed;
+}
+
+.footer ul {
+	list-style: none;
+	margin-bottom: 0;
+	justify-content: space-between;
+	padding: 10px 10px 8px 10px;
+}
+
+li{
+	display: inline;
+}
+
+p {
+	float: right;
+	color: grey;
+	position: relative;
+	top: 12px;
+	font-family: arial;
+	font-size: 13px;
+}
+
+hr.line1 {
+  padding: 0;
+  border: 5px solid red;
+  position: absolute;
+  bottom: 62px;
+  z-index: 1;
+  width: 1590px;
+}
+
+hr.line2 {
+  padding: 0;
+  border: 5px solid black;
+  position: absolute;
+  top: 0px;
+  z-index: 1;
+  width: 1590px;
+}
+
+hr.line3 {
+  padding: 0;
+  border: 5px solid #4C4C4C;
+  position: absolute;
+  z-index: 1;
+  bottom: 71px;
+  width: 1590px;
+}
+
+.par {
+	text-align: left;
+	padding-top: 30px;
+	padding-left: 50px;
+	left: 250px;
+	top: 50px;
+	font-weight: bold;
+	font-family: 'Pricedown Bl', sans-serif;
+	letter-spacing: 1px;
+	color: yellow;
+	-webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  font-size: 50px;
+    text-shadow:
+    0 10px 7px black,
+    0 10px 10px brown,
+    0 5px 0 black,
+    0 2px 0 brown,
+    0 1px 0 brown,
+    0 1px 0 red,
+    0 1px 0 red,
+    0 1px 0 red;
+}
+
+.dyt {
+	text-align: center;
+	padding: 30px 20px 30px 20px;
+	top: 150px;
+	font-weight: bold;
+	font-family: 'Pricedown Bl', sans-serif;
+	letter-spacing: 1px;
+	color: #C9FF71 ;
+	-webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  font-size: 60px;
+    text-shadow:
+    0 10px 7px black,
+    0 10px 10px brown,
+    0 5px 0 black,
+    0 2px 0 brown,
+    0 1px 0 brown,
+    0 1px 0 red,
+    0 1px 0 red,
+    0 1px 0 red;
+}
+
+.radiobtn {
+	align-content: center;
+	color: white;
+	margin: 15px 150px 40px 150px;
+	left: 140px;
+	position: absolute;
+	font-size: 35px;
+	font-family: 'Pricedown Bl', sans-serif;
+	-webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: black;
+    text-shadow:
+    0 10px 7px black,
+    0 10px 10px brown,
+    0 5px 0 black,
+    0 2px 0 brown,
+    0 1px 0 brown,
+    0 1px 0 red,
+    0 1px 0 red,
+    0 1px 0 red;
+}  
+
+input[type="radio"] {
+	appearance: none;
+  background-color: transparent;
+  margin: 0;
+  font: inherit;
+  color: white;
+  width: 0.65em;
+  height: 0.65em;
+  border: 0.15em solid white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+input[type="radio"]::before {
+  content: "";
+  width: 0.65em;
+  height: 0.65em;
+  border-radius: 50%;
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 1em 1em var(--form-control-color);
+}
+
+input[type="radio"]:checked::before {
+  transform: scale(1);
+}
+
+input[type="radio"]:focus {
+  outline: max(1px, 0.1em) solid yellow;
+  outline-offset: max(1px, 0.1em);
+}
+
+.content {
+	background: url(popupi.avif);
+	background-size: cover;
+	position: relative;
+	border-radius: 10px;
+	top: 100px;
+	margin-left: 150px;
+	margin-right: 150px;
+	height: 450px;
+	box-shadow: 10px 90px 150px 10px black;
+}
+
+@media (max-width: 767px) {
+	
+	body {
+		background-size: cover;
+		overflow: hidden;
+	}
+
+	.footer {
+		position: absolute;
+		bottom: 0;
+		width: auto;
+	}
+
+	hr.line3 {
+		position: unset;
+	}
+
+	hr.line1 {
+		position: absolute;
+		width: 100%;
+		bottom: 130px;
+	}
+
+	p {
+		text-align: center;
+		position: relative;
+		padding: 0%;
+		margin: 0%;
+		right: 30px;
+	}
+	.content {
+		position: absolute;
+		width: 300px;
+		height: 550px;
+		align-content: center;
+		margin: 50px;
+		padding: 0;
+		margin-top: 0;
+		top: 80px;
+	}
+
+	.par {
+		position: absolute;
+		text-align: center;
+		font-size: 30px;
+		left: 5px;
+		padding: 10px;
+		margin: 0;
+		top: 0;
+	}
+
+	.dyt {
+		font-size: 30px;
+		padding: 5px;
+		margin: 0;
+		position: absolute;
+	}
+
+	.radiobtn {
+		padding: 0;
+		margin: 0;
+		align-content: center;
+		font-size: 25px;
+		position: absolute;
+		left: 25%;
+		top: 50%;
+	}
+
+	img {
+		position: relative;
+		align-items: center;
+		left: 65px;
+	}
+
+}
